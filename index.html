@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Students KPI team # 4</title>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <span class="header">
+        <a href="https://makers.kg/" target="_blank"
+          ><img
+            src="./img/48053181_561895170915494_2293605612300271616_n.jpg"
+            class="img-makers"
+            alt="makers"
+        /></a>
+        <p class="header-name">Student's KPI</p>
+        <div class="javas">JavaScript # 5</div>
+      </span>
+      <div class="groups">
+        <div class="group-m">
+          <div class="mentors-show">
+            <div class="mentors">Mentors</div>
+            <div class="mentors-show1">
+              <div class="mentors-look">
+                <img src="./img/emir.jpg" alt="" class="pisa" />
+                <p class="naming">Emir</p>
+              </div>
+              <div class="mentors-look">
+                <img src="./img/kubat.jpg" alt="" class="pisa" />
+                <p class="naming">Kubat</p>
+              </div>
+              <div class="mentors-look">
+                <img src="./img/gull.jpg" alt="" class="pisa" />
+                <p class="naming">Gulliaym</p>
+              </div>
+              <div class="mentors-look">
+                <img src="./img/mirbek.jpg" alt="" class="pisa" />
+                <p class="naming">Mirbek</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="group-man">
+          <div class="manager">Group Manager</div>
+          <div class="manager-show">
+            <img src="./img/tati.jpg" alt="" class="pisa" />
+            <p class="naming">Tati</p>
+          </div>
+        </div>
+      </div>
+      <div class="bonus">
+        <div class="wassap2">What is KPI?*</div>
+        <div class="wassap1">Who are on this team?</div>
+        <div class="wassap">Students List</div>
+      </div>
+
+      <!-- searching starts here  -->
+
+      <div class="students">
+        <div class="adding">Add student and rate him by every index</div>
+        <div class="form">
+            <table class="fieldsT">
+              <tr>
+                <th class="otherT">Name</th>
+                <th class="otherT">attendance</th>
+                <th class="otherT">Tasks</th>
+                <th class="otherT">activity</th>
+                <th class="otherT">presents</th>
+                <th class="otherT">interview</th>
+              </tr>
+            </table>
+          <table class="changing">
+            <tr>
+              <th class="naming">
+                <input type="text" class="kpi_name" placeholder="name.." />
+              </th>
+              <th><input type="number" class="point1" placeholder="0" /></th>
+              <th><input type="number" class="point2" placeholder="0" /></th>
+              <th><input type="number" class="point3" placeholder="0" /></th>
+              <th><input type="number" class="point4" placeholder="0" /></th>
+              <th><input type="number" class="point5" placeholder="0" /></th>
+              <th class="btn">Submit</th>
+            </tr>
+          </table>
+          <div class="main-search"> 
+            <p class="search-p">Search student by name</p>
+            <input type="text" class="search-student" placeholder="input name...">
+          </div>
+          <table class="fields" border="1">
+            <tr>
+              <th class="reshetka">#</th>
+              <th class="searcher">Name</th>
+              <th class="other">attendance</th>
+              <th class="other">Tasks</th>
+              <th class="other">activity</th>
+              <th class="other">presents</th>
+              <th class="other">interview</th>
+              <th class="total-1">TOTAL(avg)</th>
+              <th class="deleting">X</th>
+            </tr>
+            <tbody class="list"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="student-list">
+        <div class="std-list_top">
+          <!-- <p class="close-window">X</p> -->
+          <span class="close-window">&times;</span>
+          <h2 class="std-list_head">Student list</h2>
+        </div>
+        <ul class="student-list_page"></ul>
+        <div class="std-list_bottom">
+          <span class="prev-btn">Prev</span>
+          <span class="next-btn">Next</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="answer">
+      <span id="close">&times;</span>
+      <p class="text-answer">
+        A key performance indicator "KPI" is a type of performance measurement
+        that helps you understand how your organization, department, or
+        institution is performing and allows you to understand if you’re
+        headed in the right direction with your strategy. <br />
+        А так это психологический метод влияние на студентов, типа вы лучше
+        начнете учиться..
+      </p>
+    </div>
+    <div class="answer1">
+      <span id="close">&times;</span>
+      <div class="heroes">
+        <div class="mentors-look">
+          <img src="./img/baitik.jpg" alt="" class="pisa" />
+          <p class="naming1">Baitik</p>
+        </div>
+        <div class="mentors-look">
+          <img src="./img/eldar.jpg" alt="" class="pisa" />
+          <p class="naming1">Eldar</p>
+        </div>
+        <div class="mentors-look">
+          <img src="./img/oskar.jpg" alt="" class="pisa" />
+          <p class="naming1">Askar</p>
+        </div>
+        <div class="mentors-look">
+          <img src="./img/anara.jpg" alt="" class="pisa" />
+          <p class="naming1">Anara</p>
+        </div>
+        <div class="mentors-look">
+          <img src="./img/adilet.jpg" alt="" class="pisa" />
+          <p class="naming1">Adilet</p>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="gen.js"></script>
+  </body>
+</html>

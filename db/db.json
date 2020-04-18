@@ -1,0 +1,86 @@
+{
+  "students": [
+    {
+      "name": "Clark Kent",
+      "point1": "96",
+      "point2": "100",
+      "point3": "20",
+      "point4": "88",
+      "point5": "50",
+      "id": 1,
+      "kpiname": "Clark Kentyara"
+    },
+    {
+      "name": "Askar",
+      "point1": "90",
+      "point2": "100",
+      "point3": "99",
+      "point4": "98",
+      "point5": "100",
+      "id": 2
+    },
+    {
+      "name": "Anara",
+      "point1": "100",
+      "point2": "100",
+      "point3": "99",
+      "point4": "90",
+      "point5": "88",
+      "id": 3
+    },
+    {
+      "name": "Eldar",
+      "point1": "99",
+      "point2": "99",
+      "point3": "89",
+      "point4": "79",
+      "point5": "100",
+      "id": 4
+    },
+    {
+      "name": "Malik ",
+      "point1": "100",
+      "point2": "100",
+      "point3": "100",
+      "point4": "100",
+      "point5": "100",
+      "id": 5
+    },
+    {
+      "name": "Baitik Megamozg",
+      "point1": "100",
+      "point2": "100",
+      "point3": "99",
+      "point4": "100",
+      "point5": "99",
+      "id": 6
+    },
+    {
+      "name": "Adilet - teamLead",
+      "point1": "100",
+      "point2": "100",
+      "point3": "100",
+      "point4": "0",
+      "point5": "0",
+      "id": 7
+    },
+    {
+      "name": "Mergen Kamchibekov",
+      "point1": "0",
+      "point2": "0",
+      "point3": "0",
+      "point4": "100",
+      "point5": "100",
+      "id": 8
+    },
+    {
+      "name": "Emir pipisasa",
+      "point1": "101",
+      "point2": "101",
+      "point3": "101",
+      "point4": "101",
+      "point5": "101",
+      "id": 9
+    }
+  ]
+}

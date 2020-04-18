@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500;600;700&display=swap");
+
+body {
+  background-image: url(./img/pexels-photo.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Dosis";
+}
+
+.container {
+  width: 80%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.header-name {
+  font-size: 45px;
+  font-family: "Dosis";
+  font-weight: bold;
+}
+
+.img-makers {
+  width: 200px;
+  height: 80px;
+}
+
+.javas {
+  font-size: 45px;
+  padding: 10px 20px 8px 20px;
+  border: 2px solid #aaaaaa00;
+}
+
+.groups {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #aaaaaa;
+  font-size: 25px;
+  padding: 50px 0 50px 0;
+}
+
+.mentors,
+.manager {
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 15px;
+  background: rgba(245, 245, 245, 0.52);
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mentors-show:hover {
+  cursor: pointer;
+}
+
+.mentors-show:hover .mentors-show1 {
+  display: flex;
+}
+.group-man:hover {
+  cursor: pointer;
+}
+
+.group-man:hover .manager-show {
+  display: flex;
+}
+
+.mentors-show1 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  display: none;
+  padding-top: 12px;
+  background-color: rgba(245, 245, 245, 3.76);
+  color: black;
+  border-radius: 15px;
+  border: 1px solid;
+  position: absolute;
+  top: 126px;
+  left: 184px;
+  height: 153px;
+}
+
+.mentors-look {
+  padding: 0px 6px 0px 6px;
+}
+
+.group-man {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.manager-show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+  padding-top: 12px;
+  background-color: rgba(245, 245, 245, 3.767);
+  color: black;
+  border-radius: 15px;
+  border: 1px solid;
+  width: 190px;
+  position: absolute;
+  top: 128px;
+}
+
+.pisa {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.naming {
+  margin-top: -6px;
+}
+
+/* here starts Bonus */
+
+.bonus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.wassap {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgba(216, 191, 216, 0.363);
+  width: 25%;
+  text-align: center;
+}
+
+.wassap:hover {
+  cursor: pointer;
+  background-color: rgba(216, 191, 216, 0.856);
+}
+.wassap1 {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgba(216, 191, 216, 0.363);
+  width: 25%;
+  text-align: center;
+}
+
+.wassap1:hover {
+  cursor: pointer;
+  background-color: rgba(216, 191, 216, 0.856);
+}
+.wassap2 {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgba(216, 191, 216, 0.363);
+  width: 25%;
+  text-align: center;
+}
+
+.wassap2:hover {
+  cursor: pointer;
+  background-color: rgba(216, 191, 216, 0.856);
+}
+
+/* modal  */
+
+.answer1 {
+  width: 65%;
+  height: 48%;
+  position: fixed;
+  overflow: auto;
+  z-index: 1;
+  background-image: url(./img/bqzRya.jpg);
+  background-size: cover;
+  top: 30%;
+  left: 20%;
+  border-radius: 20px;
+  display: none;
+}
+
+.naming1 {
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.heroes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.answer {
+  width: 45%;
+  height: 38%;
+  position: fixed;
+  overflow: auto;
+  z-index: 1;
+  background-color: rgba(5, 58, 59, 0.911);
+  top: 30%;
+  left: 30%;
+  border-radius: 20px;
+  display: none;
+}
+
+.text-answer {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 30px 30px 30px;
+}
+
+#close{
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-left: 94%;
+  padding: 7px;
+  background-color: lavender;
+  font-size: 40px;
+}
+
+
+
+/* KPIiiiiiiiiiiii */
+
+.students {
+  margin-top: 20px;
+  background: whitesmoke;
+  height: 100vh;
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.adding {
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.main-search {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.search-student {
+  height: 29px;
+  margin-left: 10px;
+}
+
+.changing {
+  margin-left: 5px;
+}  
+
+.btn {
+  background-color: #6fd43f;
+  width: 150px;
+  border: 0;
+  border-radius: 4px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: darkgreen;
+}
+.fieldsT{
+  margin-left: 5px;
+  width: 86%;
+  margin-bottom: -7  px;
+}
+.fields {
+  width: 100%;
+  margin-top: 5px;
+}
+.reshetka {
+  width: 5%;
+}
+
+.searcher {
+  width: 25%;
+}
+
+.total-1 {
+  width: 15%;
+}
+
+.other {
+  width: 10%;
+  height: 40px;
+}
+.otherT {
+  width: 16.6%;
+}
+.deleting {
+  width: 5%;
+  background-color: red;
+}
+
+.all-items {
+  text-align: center;
+}
+
+.btn-del {
+  background-color: rgba(241, 65, 65, 0.589);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btn-del:hover {
+  background-color: rgba(255, 14, 14, 0.931);
+}
+
+/* модалка */
+.student-list {
+  width: 45%;
+  height: 38%;
+  margin: 0 auto;
+  background-color: cadetblue;
+  position: relative;
+  top: -42%;
+  border-radius: 20px;
+  display: none;
+}
+.std-list_head {
+  text-align: center;
+  margin: 0px;
+}
+
+.student-list_2 {
+  width: 39%;
+  height: 50%;
+  position: fixed;
+  overflow: auto;
+  z-index: 1;
+  background-color: rgba(6, 82, 83, 0.911);
+  top: 30%;
+  left: 30%;
+  border-radius: 20px;
+  display: block;
+}
+
+.close-window {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-left: 94%;
+  padding: 7px;
+  background-color: lavender;
+  font-size: 40px;
+}
+
+.std-list_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.prev-btn,
+.next-btn {
+  height: 40px;
+  width: 70px;
+  border-radius: 2px;
+  background-color: lavender;
+  color: rgba(0, 0, 0, 0.904);
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.student-list_page {
+  font-size: 28px;
+  text-align: center;
+}
+
+.item-infos{
+  background-color: lightcyan;
+}
+
+.contact-name{
+  margin-bottom: 6px;
+}
+
+
+
